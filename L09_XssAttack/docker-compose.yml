@@ -1,7 +1,7 @@
 version: "3.1"
 services:
     www:
-        image: 'xssattack_www:latest'
+        image: 'emg94/xssattack_www:latest'
         ports: 
             - "8001:80"
         volumes:
@@ -12,7 +12,7 @@ services:
           static-network:
             ipv4_address: 193.20.1.2
     wwws:
-         image: 'striker_wwws:latest'
+         image: 'emg94/striker_wwws:latest'
          ports: 
              - "8005:80"
          volumes:
