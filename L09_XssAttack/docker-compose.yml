@@ -33,7 +33,7 @@ services:
         volumes:
             - ./dump:/docker-entrypoint-initdb.d
             - ./conf:/etc/mysql/conf.d
-            - persistent:/var/lib/mysql
+            - ./persistent:/var/lib/mysql
         networks:
           static-network:
             ipv4_address: 193.20.1.3

@@ -2,7 +2,7 @@
 $servername = "193.20.1.3";
 $username = "root";
 $password = "test";
-$dbname = "csrf";
+$dbname = "myDb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
